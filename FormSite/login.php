@@ -46,8 +46,8 @@ session_start();
 
         <?php
         if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-            $password = $_POST['password'];
-            $name = $_POST['name'];
+            $name = strtoupper($_POST["name"]);
+            $password = strtoupper($_POST["password"]);
 
 
             if (!empty($password) && !empty($name)) {
