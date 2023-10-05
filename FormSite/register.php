@@ -44,8 +44,8 @@ include 'functions.php';
 
 
         if (!empty($_POST["password"])) {
-            $name = $_POST["name"];
-            $password = $_POST['password'];
+            $name = strtoupper($_POST["name"]);
+            $password = strtoupper($_POST["password"]);
 
 
             $kontrol = "SELECT COUNT(*) AS count FROM users WHERE name ='" . $name . "'";
