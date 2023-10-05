@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Anamakine: 127.0.0.1
--- Üretim Zamanı: 05 Eki 2023, 00:02:15
+-- Üretim Zamanı: 05 Eki 2023, 14:05:30
 -- Sunucu sürümü: 10.4.28-MariaDB
 -- PHP Sürümü: 8.2.4
 
@@ -182,12 +182,13 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `password`, `Register_date`, `img`) VALUES
-(20, 'Mert Yamanoğlu', 'mert', '2023-09-15 20:53:39', '8051b5e0f13a4846a4a137af9bc0a023.jpg'),
-(21, 'Nurullah Yaşın', 'nurullah', '2023-09-15 22:02:46', 'images.jpeg'),
-(22, 'Senem Öztürk', 'senem', '2023-09-15 22:31:17', '22-scaled.jpg'),
-(23, 'Hande Candan', 'hande', '2023-10-02 16:10:56', 'hande.jpeg'),
-(24, 'Ece Korkmaz', 'korkmaz', '2023-10-02 16:15:18', 'indir.jpeg'),
-(26, 'a', 'a', '2023-10-02 19:53:23', '');
+(20, 'MERT YAMANOĞLU', 'MERT', '2023-09-15 20:53:39', '8051b5e0f13a4846a4a137af9bc0a023.jpg'),
+(21, 'NURULLAH YAŞIN', 'NURULLAH', '2023-09-15 22:02:46', 'images.jpeg'),
+(22, 'SENEM ÖZTÜRK', 'SENEM', '2023-09-15 22:31:17', '22-scaled.jpg'),
+(23, 'HANDE CANDAN', 'HANDE', '2023-10-02 16:10:56', 'hande.jpeg'),
+(24, 'ECE KORKMAZ', 'KORKMAZ', '2023-10-02 16:15:18', 'indir.jpeg'),
+(26, 'A', 'A', '2023-10-02 19:53:23', ''),
+(27, 'SERHAT', 'ŞAHIN', '2023-10-05 14:38:40', '');
 
 --
 -- Dökümü yapılmış tablolar için indeksler
@@ -279,7 +280,7 @@ ALTER TABLE `topics`
 -- Tablo için AUTO_INCREMENT değeri `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
