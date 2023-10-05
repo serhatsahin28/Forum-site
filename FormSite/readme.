@@ -1,0 +1,10 @@
+---Projenin sql datası mysql_database dosyası içerisinde
+
+---Yönetici paneli için gerekli bilgiler:
+Giriş linki:http://localhost/FormSite/admin
+   admin kullanıcı adı=admin
+   admin şifresi=123
+
+--- in-site images dosyasında site içerisinden görüntüler yer almaktadır.
+
+
