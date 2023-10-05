@@ -1,0 +1,87 @@
+
+<script>
+    
+    $(document).ready(function() {
+
+        // Sayfa yüklendiğinde ve güncellendiğinde en altında kalmayı sağlayan fonksiyon
+        function keepScrollBarDown() {
+            var chatContainer = document.getElementById("chat-container");
+            chatContainer.scrollTop = chatContainer.scrollHeight;
+        }
+
+        // Sayfa yüklendiğinde hemen en alta kaydır
+        keepScrollBarDown();
+
+      
+
+
+        var session_name = <?php echo json_encode($_SESSION['name']); ?>;
+        var user_id = <?php echo json_encode($_GET['user_id']); ?>;
+        var text = <?php echo json_encode($_POST['text']); ?>;
+        var session_id = <?php echo json_encode($_GET['session_id']); ?>;
+
+
+
+        function updateMessages() {
+            $.ajax({
+                type: 'POST',
+                url: 'get_messages.php',
+                data: {
+                    user_id: user_id,
+                    session_name: session_name,
+                },
+                success: function(response) {
+                    if ($('#chat2').html() !== response) {
+                        $('#chat2').html(response);
+                        keepScrollBarDown();
+                    }
+                }
+            });
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+        setInterval(updateMessages, 100);
+
+        $("#submit").on("click", function(event) { // buton id'li elemana tıklandığında
+        event.preventDefault(); // Sayfa yenilemesini önlemek için
+
+        var text = $("#text").val(); // Input alanındaki metni al
+
+        function sendMessages() {
+            $.ajax({
+                type: 'POST',
+                url: 'sent_messages.php',
+                data: {
+                    user_id: user_id,
+                    session_name: session_name,
+                    session_id: session_id,
+                    text: text,
+                },
+                success: function(response) {
+                    if ($('#chat2').html() !== response) {
+                        $('#chat2').html(response);
+                    }
+
+                }
+            });
+        }
+
+        sendMessages();
+        var text = $("#text").val(""); // Input alanındaki metni al
+        keepScrollBarDown();
+
+
+    });
+
+    });
+</script>
