@@ -23,3 +23,7 @@ Admin panelinde;
 ***Kullanıcıları göreblir silebilirsiniz.
 ***Konuları düzenleyebilir,silebilirsiniz.
 ***Kullanıcılara ait konulara girip yorumları düzenleyebilirsiniz.
+
+
+![screencapture-localhost-FormSite-admin-index-php-2023-11-19-17_25_14](https://github.com/serhatsahin28/Forum-site/assets/95092280/bc8b92bb-21a8-4ec8-8d61-67e15e80b160)
+
