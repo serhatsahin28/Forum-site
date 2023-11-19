@@ -48,3 +48,7 @@ Resimler:
 ![screencapture-localhost-FormSite-admin-index-php-2023-11-19-17_25_14](https://github.com/serhatsahin28/Forum-site/assets/95092280/c1dc41e4-7d77-413d-9cca-e600c14abc94)
 
 
+
+
+![screencapture-localhost-FormSite-admin-user-php-2023-11-19-17_30_19](https://github.com/serhatsahin28/Forum-site/assets/95092280/86dd46b2-847e-4a33-9b50-752fabd3ee4d)
+
