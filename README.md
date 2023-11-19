@@ -25,5 +25,26 @@ Admin panelinde;
 ***Kullanıcılara ait konulara girip yorumları düzenleyebilirsiniz.
 
 
-![screencapture-localhost-FormSite-admin-index-php-2023-11-19-17_25_14](https://github.com/serhatsahin28/Forum-site/assets/95092280/bc8b92bb-21a8-4ec8-8d61-67e15e80b160)
+
+Resimler:
+
+![screencapture-localhost-FormSite-index-php-2023-11-19-17_18_42](https://github.com/serhatsahin28/Forum-site/assets/95092280/8bacd7a9-e2aa-4d44-970e-f0343effe1d3)
+
+
+![screencapture-localhost-FormSite-friends-php-2023-11-19-17_19_10](https://github.com/serhatsahin28/Forum-site/assets/95092280/e2ba7b4f-b0ad-44ac-b3e4-92ff8e6bf1a5)
+
+
+![screencapture-localhost-FormSite-topics-php-2023-11-19-17_20_54](https://github.com/serhatsahin28/Forum-site/assets/95092280/5a82196f-b277-45e3-9870-dc8e24c75842)
+
+
+![screencapture-localhost-FormSite-user-php-2023-11-19-17_21_08](https://github.com/serhatsahin28/Forum-site/assets/95092280/353945da-78ce-4eef-a8fc-67fda698d307)
+
+
+
+![screencapture-localhost-FormSite-chat-php-2023-11-19-17_23_38](https://github.com/serhatsahin28/Forum-site/assets/95092280/e40eedcb-9319-470c-92bd-2db1fb56b503)
+
+
+
+![screencapture-localhost-FormSite-admin-index-php-2023-11-19-17_25_14](https://github.com/serhatsahin28/Forum-site/assets/95092280/c1dc41e4-7d77-413d-9cca-e600c14abc94)
+
 
