@@ -7,8 +7,6 @@ Giriş linki:http://localhost/FormSite/admin
    admin kullanıcı adı=admin
    admin şifresi=123
 
---- in-site images dosyasında site içerisinden görüntüler yer almaktadır.
-
 
 
 --Proje'de Kulanıcı kayıt olup giriş yapabiliyor.
